@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GallardoDeveloper</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main></main>
+    <section class="nav-layout">
+        <div class="logo">Gallardo<span>Developer</span></div>
+        <button id="btn-open" class="open-menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+       <nav class="navbar" id="nav">
+        <button id="btn-close" class="close-menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <ul id="navbar-list">         
+          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#skills">Skills</a>
+          <a class="nav-link" href="#works">Works</a>
+          <a class="nav-link" href="#contact">Contact</a>
+          
+        </ul>
+      </nav>
+    </section>
+    <section id="welcome-section">
+      <h1 class="title-hero">Hi, I'm <span>Rafael Gallardo</span></h1>
+      <p class="sub-hero">Front-End Developer focused on clean and responsive web experiences.</p>
+      <div class="hero-buttons">
+        <a href="#works" class="btn-hero" >View My Work</a>
+        <a href="#contact" class="btn-hero secondary" >Contact Me</a>
+      </div>
+    </section>
+  <section class="about-skills-section" id="about">
+  <div class="about-skills-container">
+
+    <!-- About -->
+    <div class="about-box">
+      <h2>About Me</h2>
+     <p >
+        I’m a frontend web developer with experience creating clean, functional, and user-friendly interfaces.
+        I specialize in turning ideas into clear, easy-to-navigate websites, focusing on both design and user experience.
+      </p>
+
+      <p>
+        My goal is to help individuals and professionals build a strong online presence with modern, fast, and responsive websites.
+        I work with technologies like <strong>HTML, CSS, JavaScript</strong>, and modern frameworks, always aiming to deliver efficient and easy-to-maintain projects.
+      </p>
+    </div>
+
+    <!-- Optional Image -->
+    <div class="about-image">
+      <img src="/assets/profile.jpg" alt="Rafael cartoon avatar">
+    </div>
+
+  </div>
+</section>
+  <section class="skills" id="skills">
+  <div class="skills-container">
+ 
+   <h2 class="skills-title">Skills</h2>
+<p class="skills-subtitle">Technologies and tools I use to build the web</p>
+
+    <div class="skills-grid">
+
+      <div class="skill-card">
+        <h3>👨‍💻 Programming</h3>
+        <ul>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>JavaScript</li>
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <h3>⚙️ Frameworks</h3>
+        <ul>
+          <li>React</li>
+          <li>Vue</li>
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <h3>🛠 Tools</h3>
+        <ul>
+          <li>Git & GitHub</li>
+          <li>Responsive Design</li>
+          <li>MVC (Vanilla JS)</li>
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <h3>🌐 Spoken Languages</h3>
+        <ul>
+          <li>Spanish (Native)</li>
+          <li>English (B1 - Improving)</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+</section>
+ <section class="works" id="works">
+  <h2 class="section-title">Projects</h2>
+
+  <!-- Proyecto destacado - Edgi Portfolio -->
+ <div class="project-card featured-project">
+    <img src="assets/porfolio-edgi.jpg" alt="Edgi WordPress Portfolio" />
+    <div class="project-info">
+      <h3>Edgi Studio Portfolio</h3>
+      <p>A responsive portfolio website built for a design studio, developed and deployed using WordPress with custom theme adjustments.</p>
+      <span>Tech: WordPress, Elementor, Custom CSS, Hosting & SEO</span>
+      <div class="project-links">
+        <a href=https://edgiinteriores.com/" target="_blank">🔗 Visit Site</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Grid de los otros 3 proyectos -->
+  <div class="project-grid">
+
+    <!-- Proyecto 2 -->
+    <div class="project-card">
+      <img src="assets/toDo.png" alt="Product Loader App" />
+      <div class="project-info">
+        <h3>Product Loader App</h3>
+        <p>A simple simulated login and product listing app with dynamic rendering and localStorage.</p>
+        <span>Tech: JavaScript, HTML, CSS, localStorage</span>
+        <div class="project-links">
+          <a href="https://gallardodeveloper.netlify.app/productos" target="_blank">🔗 Demo</a>
+          <a href="https://github.com/rafaeldevs96/To-do-list-by-Javascript" target="_blank">💻 Code</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Proyecto 3 -->
+    <div class="project-card">
+      <img src="assets/farm Wow.jpg" alt="Farm Calculator WoW" />
+      <div class="project-info">
+        <h3>WoW Farm Calculator</h3>
+        <p>A game-inspired calculator that helps players estimate farming profits based on time and rates.</p>
+        <span>Tech: HTML, CSS, JavaScript, MVC</span>
+        <div class="project-links">
+          <a href="https://gallardodeveloper.netlify.app/farm" target="_blank">🔗 Demo</a>
+          <a href="https://github.com/rafaelgallardo/wow-farm-calculator" target="_blank">💻 Code</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Proyecto 4 -->
+    <div class="project-card">
+      <img src="assets/lading.jpg" alt="Dynamic Location Form" />
+      <div class="project-info">
+        <h3>Dynamic Location Form</h3>
+        <p>A responsive form that dynamically updates options based on previous user selections (region, country, city).</p>
+        <span>Tech: HTML, CSS, JavaScript</span>
+        <div class="project-links">
+          <a href="https://gallardodeveloper.netlify.app/location" target="_blank">🔗 Demo</a>
+          <a href="https://github.com/rafaeldevs96/lading-page" target="_blank">💻 Code</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+  <section id="contact" class="contact-section">
+  <h2 class="section-title">Contact Me</h2>
+  <form class="contact-form" action="https://formspree.io/f/YOUR_IDhttps://formspree.io/f/xanorrvq" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="social-links">
+    <a href="https://github.com/rafaeldevs96" target="_blank">GitHub</a>
+    <a href="https://www.linkedin.com/in/rafael-gallardo-869439283/" target="_blank">LinkedIn</a>
+    <a href="mailto:rafael1996@gmail.com">Email</a>
+  </div>
+  <p class="footer-name">&copy; 2025 Rafael Gallardo. All rights reserved.</p>
+</footer>
+   
+    <script src="/main.js"></script>
+  </body>
+</html>
